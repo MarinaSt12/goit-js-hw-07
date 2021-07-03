@@ -15,14 +15,3 @@ const insertListItems = items => {
 };
 const allUnits = ingredients.map(items => insertListItems(items));
 listContainer.append(...allUnits);
-
-// const ingredientsEl = document.querySelector(`#ingredients`);
-// console.log(ingredientsEl);
-
-// const item = document.createElement(`li`);
-
-// item.textContent = ingredients;
-// ingredientsEl.append(item);
-
-// const addItemIngredients = ingredients.map(ingredient => ingredient.item);
-// console.log(addItemIngredients);
